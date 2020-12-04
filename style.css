@@ -1,0 +1,59 @@
+.gallery img/*sets the look for img tag with the ID that is gallery*/
+{
+        width: 100%;
+ }
+
+#menu/*sets the look for tag with the ID that is menu*/
+{
+    /*sets tag's width and length size*/
+      width:100%;
+      height:40px;
+    
+    /*sets the background colour*/
+      background-color: cornflowerblue;
+    
+    /*sets amount of space above the item in the tag */
+      padding-top: 12px;
+}
+
+#menu a/*sets the look for "a" tag with the ID that is menu*/
+{
+    /*Sets the text font and decoration for the tag*/
+      color:white;
+      font-family: Helvetica, sans-serif;
+      font-size: 18px;
+      text-decoration:none;
+      font-weight: 800px;
+      
+    /*sets amount of space to the left and the right of the item in the webpage */
+      padding-left: 20px;
+      padding-right: 20px;
+}
+
+#menu a:hover/*sets the look for "a" tag with the ID that is menuand the user's pointer is hovering above the item*/
+{
+       color: red;/*Sets the colour when the user's pointer hovers over the item*/
+}
+
+
+h1/*sets the look for h1 tag */
+{
+    /*Sets the text font and decoration for the tag*/
+    color:blue;
+	text-align:center;
+	font-size:20px
+}
+
+
+		
+body/*sets the look for body tag */
+{				
+				
+    background-image: url(images/avengers-background-6.jpg);/*sets the background image*/
+    background-repeat:repeat-y;/*Sets the background image to repeat along the Y axis of the webpage instead of the X axis*/
+	background-size:2100px 900px;/*Sets the background image's height and width*/
+    text-align: center;
+}
+
+
+            
